@@ -44,8 +44,8 @@ function getVersion() {
 
 }
 
-function search(query) {
-  return API.get('/api/songs/search', { params: { query } })
+function search(query, limit = 15) {
+  return API.get('/api/songs/search', { params: { query, limit } })
 }
 
 function open(songURL) {

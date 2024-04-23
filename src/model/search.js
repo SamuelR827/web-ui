@@ -46,7 +46,7 @@ function useSearchManager() {
     searchTerm.value = query
     error.value = false
     errorValue.value = ''
-    API.search(query)
+    API.search(query, 15)
       .then((res) => {
         console.log('Received Search Data:', res.data)
         if (res.status === 200) {
