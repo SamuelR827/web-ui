@@ -25,7 +25,7 @@
     </div>
     <div
       v-else
-      v-for="(song, index) in props.data"
+      v-for="(song, index) in props.data.slice(0, 15)"
       :key="index"
       class="card md:card-side card-bordered my-2 shadow-lg card-compact bg-base-100"
     >
