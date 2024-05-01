@@ -58,7 +58,7 @@
               class="btn btn-error btn-outline btn-square"
               @click="dm.remove(downloadItem.song)"
             >
-              <Icon icon="clarity:trash-line" class="h-6 w-6" />
+              <Icon icon="clarity:trash-line" class="h-5 w-5" /> <!-- Changed trash line from h-6 w-6 to h-5 w-5  -->
             </button>
             <a
               v-if="downloadItem.isDownloaded()"
@@ -67,7 +67,7 @@
               @click="download(downloadItem.web_download_url)"
               download
             >
-              <Icon icon="clarity:download-line" class="h-6 w-6" />
+              <Icon icon="clarity:download-line" class="h-5 w-5" /> <!-- Changed download line from h-6 w-6 to h-5 w-5  -->
             </a>
             <button
               v-else-if="downloadItem.progress === 0"

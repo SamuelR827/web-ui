@@ -34,18 +34,18 @@
             )
           "
           :checked="themeMgr.currentTheme.value === 'dark' ? false : true"
-        />
+        /> <!-- Changed the sun-line icon from h-8 and w-8 to h-7 and w-7 -->
         <Icon
           icon="clarity:sun-line"
-          class="swap-on fill-current h-8 w-8 m-4"
-        />
+          class="swap-on fill-current h-7 w-7 m-4"
+        /> <!-- Changed the moon-line icon from h-8 and w-8 to h-7 and w-7 -->
         <Icon
           icon="clarity:moon-line"
-          class="swap-off fill-current h-8 w-8 m-4"
-        />
+          class="swap-off fill-current h-7 w-7 m-4"
+        /> <!-- Changed the settings-line icon from h-6 and w-6 to h-5 and w-5 -->
       </label>
       <label for="my-modal" class="btn btn-circle modal-button mx-2">
-        <Icon icon="clarity:settings-line" class="h-6 w-6" />
+        <Icon icon="clarity:settings-line" class="h-5 w-5" />
       </label>
       <div class="indicator mx-2">
         <div
@@ -66,8 +66,8 @@
                 })
               : router.push({ name: 'Download' })
           "
-        >
-          <Icon icon="clarity:download-cloud-line" class="h-6 w-6" />
+        > <!-- Changed the cloud-line icon from h-6 and w-6 to h-5 and w-5 -->
+          <Icon icon="clarity:download-cloud-line" class="h-5 w-5" />
         </a>
       </div>
     </div>

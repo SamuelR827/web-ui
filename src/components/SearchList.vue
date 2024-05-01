@@ -82,7 +82,7 @@
             <!-- <Icon icon="clarity:download-line" class="h-6 w-6" /> -->
             <!-- <Icon icon="clarity:clock-line" class="h-6 w-6" /> -->
             <!-- <Icon icon="clarity:upload-cloud-line" class="h-6 w-6" /> -->
-            <Icon icon="clarity:floppy-line" class="h-6 w-6" />
+            <Icon icon="clarity:floppy-line" class="h-6 w-6" /> 
           </button>
         </div>
       </div>

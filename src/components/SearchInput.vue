@@ -23,7 +23,7 @@
         icon="clarity:download-line"
         class="h-6 w-6"
       />
-      <Icon v-else icon="clarity:search-line" class="h-6 w-6" />
+      <Icon v-else icon="clarity:search-line" class="h-5 w-5" /> <!-- Changed the Search line icon from h-6 and w-6 to h-5 and w-5 -->
     </button>
   </div>
 </template>

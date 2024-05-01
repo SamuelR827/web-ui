@@ -10,15 +10,15 @@
             )
           "
           :checked="themeMgr.currentTheme.value === 'dark' ? false : true"
-        />
+        /> <!-- Changed sun icon size from h-8 w-8 to h-7 w-7 -->
         <Icon
           icon="clarity:sun-line"
-          class="swap-on fill-current h-8 w-8 m-4"
-        />
+          class="swap-on fill-current h-7 w-7 m-4"
+        /> <!-- Changed moon icon size from h-8 w-8 to h-7 w-7 -->
         <Icon
           icon="clarity:moon-line"
-          class="swap-off fill-current h-8 w-8 m-4"
-        />
+          class="swap-off fill-current h-7 w-7 m-4"
+        /> 
       </label>
       <label for="my-modal" class="btn btn-square modal-button m-2">
         <Icon icon="clarity:settings-line" class="h-6 w-6" />
